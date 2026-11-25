@@ -1,0 +1,1 @@
+WARNING: Passengers arriving before they depart will be charged a second fare.
