@@ -1,8 +1,8 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// One-line entry for u-eager-stork-81-9647-funniest-time-machine-warning-f8add151:
-// written only to /output/entry.txt, with no trailing newline.
-const line = "WARNING: Passengers arriving before they depart will be charged a second fare.";
+const label =
+  "WARNING: If your birth certificate begins to fade, stay seated and " +
+  "continue not existing until an attendant arrives.";
 
 mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", line);
+writeFileSync("/output/entry.txt", label, "utf8");
